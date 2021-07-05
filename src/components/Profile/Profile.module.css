@@ -1,0 +1,80 @@
+.avatar {
+  display: block;
+  max-width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgb(193, 238, 240);
+}
+
+.profile {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 0px 0px 4px 4px;
+
+  box-shadow: 0 0 7px 2px rgb(0 0 0 / 25%);
+  /* overflow: hidden; */
+}
+
+.description {
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  width: 350px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tag,
+.location {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #616060;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 750;
+  text-transform: uppercase;
+}
+
+.stats {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 1px solid rgb(51, 26, 26);
+  background-color: rgb(177, 177, 223);
+}
+
+.statsItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 17px;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.stats li:not(:last-child) {
+  border-right: 1px solid rgb(253, 252, 252);
+}
+
+.label {
+  margin-bottom: 5px;
+
+  color: rgb(90, 86, 86);
+}
+
+.quantity {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+}
